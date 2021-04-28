@@ -1,0 +1,227 @@
+.card {
+    --color: grey;
+    --style-color: #fff;
+    --bg-gradient: unset;
+    --border-color: transparent;
+    --border-width: 0;
+    position: relative;
+    color: var(--color);
+    background: var(--bg-gradient);
+    border-width: 0;
+    border: var(--border-width, 0) solid var(--border-color);
+    padding: .6rem 1rem;
+    border-radius: 5px;
+    //max-width: calc(100% - 3rem);
+    margin-bottom: 1rem;
+    text-align: left;
+    box-shadow: 4px 4px 21px -4px rgba(0, 0, 0, .5);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.card1 {
+    --color: grey;
+    --style-color: #fff;
+    --bg-gradient: unset;
+    --border-color: transparent;
+    --border-width: 0;
+    position: relative;
+    color: var(--color);
+    background: var(--bg-gradient);
+    border-width: 0;
+    border: var(--border-width, 0) solid var(--border-color);
+    //padding: .6rem 1rem;
+    border-radius: 5px;
+    //max-width: calc(100% - 3rem);
+    margin-bottom: 1rem;
+    text-align: left;
+    box-shadow: 4px 4px 21px -4px rgba(0, 0, 0, .5);
+    
+    align-items:stretch;
+   
+}
+
+.card2 {
+    --color: grey;
+    --style-color: #fff;
+    --bg-gradient: unset;
+    --border-color: transparent;
+    --border-width: 0;
+    position: relative;
+    color: var(--color);
+    background: var(--bg-gradient);
+    border-width: 0;
+    border: var(--border-width, 0) solid var(--border-color);
+    //padding: .6rem 1rem;
+    border-radius: 5px;
+    //max-width: calc(100% - 3rem);
+    margin-bottom: 1rem;
+    text-align: left;
+    box-shadow: 4px 4px 21px -4px rgba(0, 0, 0, .5);
+    
+    align-items:stretch;
+   
+}
+
+.label-title-white {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: oblique;
+    margin-bottom: .5rem;
+}
+
+.label-title {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: oblique;
+    margin-bottom: .5rem;
+}
+
+
+.div-card-gradient-periodo {
+    background-color: #2065a8;
+    --bg-gradient: linear-gradient(33deg, rgba(11, 50, 100, 1) 0%, rgba(32, 101, 168, 1) 100%);
+    max-height: 136px;
+    min-height: 135px
+}
+
+.div-card-gradient-outros {
+    background-color: #2065a8;
+    --bg-gradient: linear-gradient(33deg, rgba(11, 50, 100, 1) 0%, rgba(32, 101, 168, 1) 100%);
+    min-height: 135px
+}
+
+.div-card-branco {
+    --bg-color: #fff;
+    --bg-gradient: #fff;
+}
+
+.div-branca-periodo {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    min-height: 70px;
+    max-height: 70px;
+    box-shadow: 4px 4px 21px -4px rgba(0, 0, 0, .5);
+    --border-color: transparent;
+    --border-width: 0;
+    padding: 15px;
+}
+
+.div-branca-outros {
+    flex: 0 0 100%;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    min-height: 70px;
+    max-height: 70px;
+    box-shadow: 4px 4px 21px -4px rgba(0, 0, 0, .5);
+    --border-color: transparent;
+    --border-width: 0;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.header_section {
+    color: dimgray;
+}
+
+.col-md-2 {
+    color: dimgray;
+}
+
+
+.legend-class {
+    background: transparent;
+    margin-left: 12px;
+    font-size: 12px;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+::ng-deep .mat-grid-tile .mat-figure {
+    display: block !important; /* or whichever you need */
+}
+
+.font-size-table {
+    font-size: 12px !important;
+}
+
+.label_preto_shadow_12 {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+    padding: 0.2em 0 0.1em;
+    text-shadow: 1px 1px 2px #ccc;
+}
+.label_position_top {
+    float: top;
+    display: block;
+    line-height: 1.5em;
+    margin-bottom: 0em !important;
+}
+.div-header-grupos {
+    background-color: #3f89b5;
+    color: #fff;
+    font: 500 12px/14px Roboto, "Helvetica Neue", sans-serif;
+    height: 20px;
+    vertical-align: top;
+    display: flex;
+    align-items: center;
+    
+    box-shadow: 4px 4px 21px -4px rgba(0, 0, 0, .5);
+    padding-left: 2px;
+    
+    
+    --border-color: transparent;
+    --border-width: 0;
+    border: var(--border-width, 0) solid var(--border-color);
+}
+.div-header-grupos1 {
+    background-color: #3f89b5;
+    color: #fff;
+    font: 500 12px/14px Roboto, "Helvetica Neue", sans-serif;
+    height: 20px;
+    vertical-align: top;
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+    //align: center;
+    //--border-color: transparent;
+    //--border-width: 0;
+    //border: var(--border-width, 0) solid var(--border-color);
+}
+
+.content-dep {
+    padding: .6rem 1rem;
+    
+}
+
+.div-header-grupos2 {
+    background-color: #3f89b5;
+    color: #fff;
+    font: 500 12px/14px Roboto, "Helvetica Neue", sans-serif;
+    height: 20px;
+    vertical-align: top;
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+    box-shadow: inset .2em .2em 0 white;
+    
+    //align: center;
+    //--border-color: transparent;
+    //--border-width: 0;
+    //border: var(--border-width, 0) solid var(--border-color);
+}
