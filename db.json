@@ -1,0 +1,40 @@
+{
+  "departments": [
+    {
+      "name": "Padaria",
+      "id": 5
+    },
+    {
+      "name": "Escritório",
+      "id": 6
+    },
+    {
+      "name": "Frutaria",
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "name": "hahahha",
+      "id": 2,
+      "departments": [
+        "ola",
+        "joia"
+      ],
+      "stock": 45,
+      "price": 23
+    },
+    {
+      "name": "testqqq",
+      "id": 5,
+      "departments": [
+        "Padaria"
+      ],
+      "stock": 411,
+      "price": 111234
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
